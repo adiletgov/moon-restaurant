@@ -16,8 +16,7 @@ export default function Footer() {
         <div className="max-w-screen-xl mx-auto text-center">
           <Link
             href="/"
-            className="flex items-center justify-center gap-2 text-2xl font-semibold text-neutral-100"
-          >
+            className="flex items-center justify-center gap-2 text-2xl font-semibold text-neutral-100">
             <LogoSVG width={50} height={50} />
             <span className="flex gap-1">
               <span className="text-white font-brush">Asian</span>
@@ -34,14 +33,13 @@ export default function Footer() {
             })}
           </div>
           <span className="text-sm text-neutral-500 sm:text-center dark:text-neutral-400">
-            Created by{" "}
+            {" "}
             <Link
               className="hover:underline"
-              href={"https://github.com/brozinsky"}
-            >
-              brozinsky
-            </Link>
-            {" "}© 2024 All Rights Reserved.
+              href={"https://maps.app.goo.gl/9FUEY5YLmrFRb5Ng7"}>
+              Moon Food & Bar
+            </Link>{" "}
+            © 2024 All Rights Reserved.
           </span>
         </div>
       </div>
