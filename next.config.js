@@ -6,13 +6,13 @@ const nextConfig = {
   output: 'export',
 
   // The name of your GitHub repository
-  basePath: '/moon-restaurant',
   
   // Required for static export on GitHub Pages
   images: {
     unoptimized: true,
     domains: ["flowbite.s3.amazonaws.com", "images.unsplash.com"],
   },
+  distDir: 'dist',
 };
 
 module.exports = nextConfig;
